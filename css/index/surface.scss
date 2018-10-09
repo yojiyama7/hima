@@ -1,0 +1,24 @@
+@import "../_module/surface_parts";
+
+@include default();
+
+/* header */
+#header-box {
+	& a {
+		text-decoration: none;
+	}
+}
+
+/* .main */
+#intro-image {
+	background-color: $light-gray;
+	&-box p {
+		color: $dark-gray;
+	}
+}
+.intro-image-right {
+	&-character{
+		font-family: "游ゴシック体", 'Yu Gothic', "YuGothic", 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', "メイリオ", "Meiryo", "Osaka", 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+	}
+}
